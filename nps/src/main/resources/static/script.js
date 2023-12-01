@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentQuestionIndex < questions.length) {
             showCurrentQuestion();
         } else {
-            // Se não houver próxima pergunta, mostra a mensagem de agradecimento e o botão de enviar
             showThankYouMessage(1000);
             submitButton.style.display = 'block';
             nextButton.style.display = 'none';
